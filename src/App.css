@@ -1,0 +1,21 @@
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+.side-bar {
+  width: 1/5;
+}
+
+.main-grid {
+  width: 4/5;
+  display: flex;
+  flex-direction: row;
+}
+
+.items-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
